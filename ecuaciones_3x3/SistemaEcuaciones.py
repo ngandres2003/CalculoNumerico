@@ -29,7 +29,7 @@ class SistemaEcuaciones:
         ax.plot(x, y1, label='y1=(1 + 2*x - 9*z) / 5')
         ax.plot(x, y2, label='y2=(6 - 7*x - z)')
         plt.legend()
-        plt.grid(ls="--", color="#dadada")
+        plt.grid(ls="--", color="black")
         plt.show()
     
    
